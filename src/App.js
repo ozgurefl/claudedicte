@@ -4,6 +4,35 @@ import React, { useState, useEffect, useMemo, useRef } from 'react';
 import beginnerSentences from './beginner.json';
 import intermediateSentences from './intermediate.json';
 import advancedSentences from './advanced.json';
+import causeSentences from './cause.js';
+import comparisonSentences from './comparison.js';
+import concludingSentences from './concluding.js';
+import conditionSentences from './condition.js';
+import consequenceSentences from './consequence.js';
+import doubtSentences from './doubt.js';
+import emphasisSentences from './emphasis.js';
+import illustratingSentences from './illustrating.js';
+import introducingSentences from './introducing.js';
+import locationSentences from './location.js';
+import modalsSentences from './modals.js';
+import oppositionSentences from './opposition.js';
+import purposeSentences from './purpose.js';
+import referencingSentences from './referencing.js';
+import set1Sentences from './set1.js';
+import set2Sentences from './set2.js';
+import set3Sentences from './set3.js';
+import set4Sentences from './set4.js';
+import set5Sentences from './set5.js';
+import set6Sentences from './set6.js';
+import set7Sentences from './set7.js';
+import set8Sentences from './set8.js';
+import set9Sentences from './set9.js';
+import set10Sentences from './set10.js';
+import set11Sentences from './set11.js';
+import set12Sentences from './set12.js';
+import set13Sentences from './set13.js';
+import summarizingSentences from './summarizing.js';
+import timeSentences from './time.js';
 
 const FrenchDictationApp = () => {
   const frenchSpecialChars = [
@@ -18,6 +47,35 @@ const FrenchDictationApp = () => {
     Beginner: beginnerSentences,
     Intermediate: intermediateSentences,
     Advanced: advancedSentences,
+    cause: causeSentences,
+  comparison: comparisonSentences,
+  concluding: concludingSentences,
+  condition: conditionSentences,
+  consequence: consequenceSentences,
+  doubt: doubtSentences,
+  emphasis: emphasisSentences,
+  illustrating: illustratingSentences,
+  introducing: introducingSentences,
+  location: locationSentences,
+  modals: modalsSentences,
+  opposition: oppositionSentences,
+  purpose: purposeSentences,
+  referencing: referencingSentences,
+  set1: set1Sentences,
+  set2: set2Sentences,
+  set3: set3Sentences,
+  set4: set4Sentences,
+  set5: set5Sentences,
+  set6: set6Sentences,
+  set7: set7Sentences,
+  set8: set8Sentences,
+  set9: set9Sentences,
+  set10: set10Sentences,
+  set11: set11Sentences,
+  set12: set12Sentences,
+  set13: set13Sentences,
+  summarizing: summarizingSentences,
+  time: timeSentences,
   };
 
   const [state, setState] = useState({
